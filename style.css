@@ -28,12 +28,12 @@ main {
 }
 
 body {
-  background: var(--white);
+  background: black;
 }
 
 .img-desconto{
   position: fixed;
-  opacity: 30%;
+  opacity: 60%;
 }
 
 .img-desconto.primeira {
@@ -108,10 +108,16 @@ article h1 {
 
   margin: 0.5rem auto 1rem auto;
 
-  font-size: 3rem;
+  font-size: 2.5rem;
 
   color: var(--yellow);
 }
+
+article h1 span {
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
 
 article p {
   width: 40rem;
@@ -120,6 +126,8 @@ article p {
 
   font-size: 1.5rem;
   text-align: justify;
+
+  color: var(--white);
 }
 
 article p span {
@@ -238,7 +246,7 @@ section {
   font-size: 1.4rem;
   font-weight: 500;
   text-align: center;
-  color: black;
+  color: var(--white);
 }
 
 /* FOOTER */
